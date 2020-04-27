@@ -3,6 +3,7 @@
 
 ## Setup
 in root directory and spine-cocos2d-objc, run:
+
   cmake CMakeLists.txt
   
 ## Compile errors fix
