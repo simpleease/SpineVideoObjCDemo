@@ -9,10 +9,10 @@ in root directory and spine-cocos2d-objc, run:
 ### cocos2d for iphone
 #### error: Expected method to read dictionary element not found on object of type 'id<NSCopying>'
 in CCRendererBasicTypes.m
-@implementation CCBlendModeCache
--(id)objectForKey:(id<NSCopying>)options
-修改为
--(id)objectForKey:(id)options
+replace the following line、
+  -(id)objectForKey:(id<NSCopying>)options
+With new code:
+  -(id)objectForKey:(id)options
 
 ### cocos2d-x
 #### error:  Argument value 10880 is outside the valid range [0, 255]   in  btVector3.h
